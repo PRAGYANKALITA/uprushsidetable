@@ -1,4 +1,13 @@
 {
   "name": "uprushlivesideboard",
-  "cleanUrls": true
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/points", "destination": "/index.html" },
+    { "source": "/standard", "destination": "/index.html" },
+    { "source": "/ranked", "destination": "/index.html" },
+    { "source": "/kills", "destination": "/kills.html" },
+    { "source": "/booyah", "destination": "/kills.html" },
+    { "source": "/kills-booyah", "destination": "/kills.html" },
+    { "source": "/kb", "destination": "/kills.html" }
+  ]
 }
